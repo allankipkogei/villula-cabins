@@ -1,0 +1,32 @@
+/* App-level specific styles and resets */
+.card-hover {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.hero-gradient-overlay {
+  background: linear-gradient(
+    180deg,
+    rgba(14, 27, 19, 0.55) 0%,
+    rgba(14, 27, 19, 0.75) 60%,
+    rgba(14, 27, 19, 0.95) 100%
+  );
+}
+
+.frosted-glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.frosted-dark {
+  background: rgba(20, 41, 29, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Outer Rounded Square Container -->
+  <rect x="8" y="8" width="104" height="104" rx="22" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Chimney on left roof pitch -->
+  <path d="M40 38V28H48V46" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Outer Roof Pitch (A-frame peak) -->
+  <path d="M18 78L60 36L102 78" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Inner Parallel Roof Pitch -->
+  <path d="M26 84L60 50L94 84" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Walls (Left & Right posts) -->
+  <line x1="39" y1="67" x2="39" y2="92" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  <line x1="81" y1="67" x2="81" y2="92" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Central Door -->
+  <rect x="52" y="66" width="16" height="26" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
+  
+  <!-- Stepped Base Platform -->
+  <line x1="32" y1="92" x2="88" y2="92" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  <line x1="22" y1="98" x2="98" y2="98" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+</svg>
